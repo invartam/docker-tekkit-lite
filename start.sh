@@ -8,7 +8,7 @@ else
   JAVA_ARGS=$1
 fi;
 
-JAR='Tekkit.jar'
+JAR='TekkitLite.jar'
 
 if [ ! -e /minecraft/server.properties ]; then
   unzip /data/server.zip -d /minecraft
